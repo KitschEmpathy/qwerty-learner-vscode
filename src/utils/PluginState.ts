@@ -249,7 +249,7 @@ export default class PluginState {
   }
 
   getInitialPlayVoiceBarContent() {
-    let content = `/${this._getCurrentWordPhonetic()}/}`
+    let content = `/${this._getCurrentWordPhonetic()}/`
     content = content.replace(/\n/g, ' ')
     return content
   }
